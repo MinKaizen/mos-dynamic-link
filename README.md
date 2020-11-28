@@ -25,7 +25,7 @@ HTML output:
 
 # Defaults
 
-The only 2 mandatory attributes is `link_template`. By default, the shortcode will:
+The only mandatory attribute is `link_template`. By default, the shortcode will:
 
 - Wrap the url in an `<a>` element
 - Prepend `https://` if no protocol is provided in link
