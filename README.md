@@ -21,7 +21,7 @@ HTML output:
 <a href="https://www.google.com/search?q=hello+world" target="_blank" rel="noopener noreferrer">Search Google</a>
 ```
 
-> NOTE: You can read any number of URL parameters, as long as you include them like this: `%%url_param_name%% in the link template. To read a URL parameter called `email`, simply use %%email%% in your link template.
+> NOTE: You can read any number of URL parameters, as long as you include them like this: `%%url_param_name%%` in the link template. To read a URL parameter called `email`, simply use `%%email%%` in your link template.
 
 # Defaults
 
