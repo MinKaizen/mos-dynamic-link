@@ -35,31 +35,33 @@ The only mandatory attribute is `link_template`. By default, the shortcode will:
 
 # Options
 
-## link_template (required)
+## link_template *(required)*
 
-The link template. Use %%param_name%% as merge tags. `%%var_name%%` means read the URL parameter called `var_name`
+The link template. Use %%param_name%% as merge tags. `%%var_name%%` means "Read the URL parameter called `var_name`"
 
-## link_text (default="CLICK HERE")
+If left blank, the shortcode will output an empty string
+
+## link_text *(default="CLICK HERE")*
 
 The link text to display. No effect if `wrap_html` is `false`
 
-## wrap_html (default=true)
+## wrap_html *(default=true)*
 
 Whether or not to wrap the link in an `<a>` element. If false, the url will be printed as plain text
 
 
-## encode (default=true)
+## encode *(default=true)*
 
 Whether or not to url encode the value of query parameters.
 
 e.g.`hello world` becomes `hello+world`
 
-## class (default='')
+## class *(default='')*
 
 Class name to add to the `<a>` element. No effect if `wrap_html` is `false`
 
 Multiple classnames can be added by passing them in a single string and separating them with spaces.
 
-## new_tab (default=true)
+## new_tab *(default=true)*
 
 Whether or not to set the link as "open in new tab". No effect if `wrap_html` is `false`
