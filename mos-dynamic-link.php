@@ -71,7 +71,7 @@ function shortcode_dynamic_link( $passed_atts ) {
   // Wrap the link in an <a> element
   $target_attribute = $new_tab ? "target='_blank' rel='noopener noreferrer'" : '';
   $class_attribute = $atts['class'] ? "class='$atts[class]'" : '';
-  $link = "<a $class_attribute $target_attribute href='$url'>$atts[link_text]</a>";
+  $link = "<a href='$url' $class_attribute $target_attribute>$atts[link_text]</a>";
 
   return $link;
 }
